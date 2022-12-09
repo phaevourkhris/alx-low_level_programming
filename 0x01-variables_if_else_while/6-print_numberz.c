@@ -5,10 +5,14 @@
  */
 int main(void)
 {
-	int i;
+	int y;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
+	y = 0;
+	while
+		(y < 10) {
+			putchar(y + '0');
+			y++;
+		}
 	putchar('\n');
 	return (0);
 }
