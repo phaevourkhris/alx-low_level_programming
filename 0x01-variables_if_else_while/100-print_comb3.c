@@ -17,13 +17,19 @@ int main(void)
 		{
 			if (z != y && z < y)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar('0' + z);
+				putchar('0' + y);
+
+				if (y + z != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+			y++;
 		}
-		y++;
+		z++;
 	}
-	z++;
 	putchar('\n');
 	return (0);
 }
