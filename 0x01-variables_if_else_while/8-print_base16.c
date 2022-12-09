@@ -7,11 +7,19 @@ int main(void)
 {
 	char y;
 
-	y = 'z';
+	int z;
+
+	y = 'a';
+	z = 0;
 	while
-		(y >= 'a') {
+		(z < 10) {
+			putchar(z + '0');
+			z++;
+		}
+	while
+		(y <= 'f') {
 			putchar(y);
-			y--;
+			y++;
 		}
 	putchar('\n');
 	return (0);
