@@ -4,7 +4,7 @@
  * @n: number
  */
 
-void print_times_tavle(int n)
+void print_times_table(int n)
 {
 	int a = 0, prod, b;
 
