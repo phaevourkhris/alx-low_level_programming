@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	unsigned long int i, bef = 1, after = 2, l = 1000000000;
+	unsigned long int i, bef = 1, aft = 2, l = 1000000000;
 	unsigned long int bef1, bef2, aft1, aft2;
 
 	printf("%lu", bef);
@@ -24,7 +24,7 @@ int main(void)
 
 	for (i = 92; i < 99; ++i)
 	{
-		printf(", %lu", aft1 + (aft2 / l);
+		printf(", %lu", aft1 + (aft2 / l));
 		printf("%lu", aft2 % l);
 		aft1 = aft1 + bef1;
 		bef1 = aft1 - bef1;
